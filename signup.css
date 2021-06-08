@@ -22,6 +22,15 @@ body {
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
+#login-box-1 {
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  height: 400px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
 
 .left {
   position: absolute;
@@ -102,6 +111,18 @@ input[type="submit"]:active {
   line-height: 40px;
   text-align: center;
 }
+.or-1 {
+  position: absolute;
+  top: 175px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+}
 
 .right {
   position: absolute;
@@ -116,8 +137,28 @@ input[type="submit"]:active {
   background-position: center;
   border-radius: 0 2px 2px 0;
 }
+.right-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-edJuQ04HSwQKRJYE7yNNTTZzOaPtkbo9GA&usqp=CAU');
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+}
 
 .right .loginwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #FFF;
+  text-align: center;
+}
+.right-1 .loginwith {
   display: block;
   margin-bottom: 40px;
   font-size: 28px;
@@ -138,6 +179,18 @@ button.social-signin {
   cursor: pointer;
 }
 
+button.social-signin-1 {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
 button.social-signin:hover,
 button.social-signin:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
